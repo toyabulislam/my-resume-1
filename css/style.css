@@ -1,0 +1,371 @@
+/*-------------------Font--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*-------------------Colors---------------------*/
+:root{ 
+       --c1 : #2f4f4f;
+       --c2 : #eaeded;
+       --c3 : #446161;
+       --c4 : #a3bbc8;
+       --f1 : #e8eef1;
+       --f2 : #191919;
+       --f3 : #323232;
+       --f4 : #4c4c4c;
+       --hover : #487891;
+
+}
+
+/*-----------------Pre Settings-----------------*/
+*{
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+}
+body{
+       font-family: 'Poppins', sans-serif;
+       -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6{
+       margin: 0;
+       line-height: 1.5;
+       font-size: 20px;
+       font-weight: 400;
+}
+p{
+       margin: 0;
+       line-height: 1.2px;
+       font-size: 15px;
+       font-weight: 400;
+}
+a{
+       text-decoration: none;
+       transition: all 0.5s ease;
+}
+.left a{
+       color: var(--c2);
+}
+.left a:hover{
+       transform: translateX(10px);
+       color: white;
+}
+.nav{
+       background: var(--c1);
+       margin: 0 auto;
+       padding: 10px 0;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       box-shadow: 0 0 20px 0 var(--f3);
+}
+.nav img{
+       width: 130px;
+       
+       
+}
+.box{
+       position: relative;
+       max-width: 1000px;
+       min-height: 1440px;
+       margin: 50px auto;
+}
+
+.container{
+       display: grid;
+       grid-template-columns: 3fr 5fr;
+}
+/*=======================================Sizing===========================================================*/
+
+
+.resume{
+       background:  #637b7b;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       padding: 10px 0;
+       margin: 0 auto;
+}
+.resume h2{
+       font-size: 20px;
+       font-weight: 600;
+       color: var(--c2);
+       letter-spacing: 5px;
+}
+
+.head .dp{
+       margin-bottom: 20px;
+}
+.head .name{
+       font-size: 20px;
+       font-weight: 600;
+}
+.head h3{
+       font-size: 15px;
+       color: var(--c4);
+       margin-bottom: 15px;
+}
+
+.left h1{
+       font-size: 20px;
+       font-weight: 500;
+       margin-bottom: 5px;
+}
+.right h1{
+       color: var(--c3);
+       font-size: 20px;
+       font-weight: 600;
+}
+.contact ul{
+       font-size: 13px;
+}
+.contact{
+       margin-bottom: 15px;
+}
+.about ul{
+       font-size: 13px;
+}
+.about{
+       margin-bottom: 15px;
+}
+.hobby ul{
+       font-size: 13px;
+}
+.hobby{
+       margin-bottom: 15px;
+}
+.reference ul{
+       font-size: 13px;
+       font-weight: 300;
+}
+
+.reference .name{
+       font-size: 16px;
+       font-weight: 500;
+}
+
+.career-obj{
+       margin-bottom: 15px;
+}
+.career-obj h6{
+       font-size: 15px;
+       font-weight: 500;
+       color: var(--f4);
+}
+.degree h2{
+       font-size: 16px;
+       font-weight: 650;
+       color: var(--f3);
+}
+.degree h3{
+       font-size: 15px;
+       font-weight: 500;
+       color: var(--f4);
+}
+.degree span{
+       font-size: 14px;
+       font-weight: 600;
+       color: var(--f3);
+}
+.degree{
+       margin-bottom: 10px;
+}
+.degree .fa{
+       margin-right: 10px;
+}
+.education{
+       margin-bottom: 15px;
+}
+.pro-skills{
+       margin-bottom: 20px;
+}
+.pro-skills .name{
+       font-size: 15px;
+       font-weight: 600;
+       color: var(--f3);
+}
+.pro-skills .parcent{
+       font-size: 15px;
+       font-weight: 600;
+       color: var(--f4);
+}
+
+.lang table{
+       font-size: 15px;
+       font-weight: 500;
+       color: var(--f3);
+}
+.lang table span{
+       font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=======================================Left Side========================================================*/
+
+.left{
+       position: relative;
+       background: darkslategray;
+       color: var(--c2);
+       padding: 60px 40px;
+}
+.right{
+       position: relative;
+       background: #eaeded;
+       padding: 60px 40px;
+}
+.left .head{
+       justify-content: center;
+       text-align: center;
+}
+.left .divider{
+       width: 80%;
+       height: 1px;
+       justify-content: center;
+       margin: 0 auto 20px;
+       background-color: var(--c4);
+}
+.right .divider{
+       width: 100%;
+       height: 1px;
+       justify-content: center;
+       margin: 0 auto 10px;
+       background-color: var(--c3);
+}
+.left .head .dp{
+       border: 1px solid transparent;
+       border-radius: 50%;
+}
+ul{
+       list-style-type: none;
+}
+
+.contact li{
+       display: grid;
+       grid-template-columns: 30px 1fr;
+}
+.contact a{
+       display: grid;
+       grid-template-columns: 30px 1fr;
+}
+
+
+/*=============================================Left Side================================*/
+
+.pro-skills{
+       display: block;
+}
+.skill{
+       align-items: center;
+       display: grid;
+       padding: 3px 0;
+       grid-template-columns: 40px 120px 50px 3fr;
+}
+.skill .icon{
+       align-items: center;
+}
+.skill .icon i{
+       font-size: 20px;
+}
+.skill .icon img{
+       width: 20px;
+}
+.skill .name span{
+       padding-left: 15px;
+}
+.skill .p-bar{
+       position: relative;
+       background: #b6c1c1;
+       width: 100%;
+       height: 10px;
+}
+.skill .p-bar .progress{
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 10px;
+       background: var(--c3);
+}
+.computer img{
+       width: 15px;
+       
+}
+.computer ul{
+       font-size: 15px;
+       font-weight: 500;
+       color: var(--f3);
+}
+.computer{
+       margin-bottom: 20px;
+}
+.computer li{
+       display: grid;
+       grid-template-columns: 30px 1fr;
+}
+.computer ul{
+       display: block;
+}
+table{
+       width: 100%;
+       text-align: left;
+}
+
+
+
+/*==========================================For Mobiles========================================*/
+@media only screen and (max-width:700px){
+       .container{
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+              margin: 0 auto;
+       }
+       .contact li{
+              display: flex;
+              justify-content: center;
+       }
+       .contact li .icon{
+              display: none;
+       }
+       .contact a{
+              display: inline-block;
+              justify-content: center;
+       }
+       .contact a .icon i{
+              margin: 5px 5px;
+              font-size: 20px;
+       }
+       .contact a .ico-name{
+              display: none;
+       }
+       
+       .skill{
+              display: flex;
+              flex-direction: column;
+       }
+       .skill .icon i{
+              font-size: 50px;
+       }
+       .skill .icon img{
+              width: 50px;
+       }
+       .computer li{
+              display: flex;
+              flex-direction: column;
+       }
+       .computer img{
+              width: 40px;
+              padding: 5px;
+       }
+
+}
+
+
